@@ -1,0 +1,10 @@
+{
+  "supports_noop": false,
+  "description": "Discover Puppet resources for specified type",
+  "parameters": {
+    "type": {
+      "description": "Puppet type to discover",
+      "type": "String[1]"
+    }
+  }
+}
